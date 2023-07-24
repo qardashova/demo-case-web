@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/slider.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <nav>
+          <div class="logo-menu">
+            <h1>LOGO</h1>
+            <ul>
+              <li>Menu 1</li>
+              <li>Menu 2</li>
+              <li class="languages">
+                Tr <img src="./images/icons/down.png" alt="" />
+                <ul class="dropdown">
+                  <li>Ar</li>
+                  <li>Tr</li>
+                  <li>Fr</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="watch-sign">
+            <div class="buttons">
+              <button class="watch-list">
+                Watchlist
+                <img src="./images/icons/Blur-Background.png" alt="" />
+              </button>
+              <div class="watch-modal">
+                <div class="close-btn">
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="10"
+                      height="10"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_751_23)">
+                        <path
+                          d="M7.19726 1.73919L7.61711 2.15903L5.09804 4.6781L7.61711 7.19717L7.19726 7.61701L4.67819 5.09795L2.15913 7.61701L1.73928 7.19717L4.25835 4.6781L1.73928 2.15903L2.15913 1.73919L4.67819 4.25826L7.19726 1.73919Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_751_23">
+                          <rect
+                            width="9.5"
+                            height="9.5"
+                            fill="white"
+                            transform="translate(0.224609 0.224976)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </button>
+                </div>
+                <div class="list-container">
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-1.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>The Withcher</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-2.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>The Queen's Gambit</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-3.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>The Dark Knight</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-4.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>No Time To Day</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-1.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>The Withcher</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-2.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>The Queen's Gambit</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-3.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>The Dark Knight</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="list-movie">
+                    <div class="movie-img">
+                      <img src="./images/movie-images/list-4.png" alt="" />
+                    </div>
+                    <div class="movie-name">
+                      <h3>No Time To Day</h3>
+                      <img src="./images/icons/close.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="sign-in">Sign In</button>
+              <div class="hamburger-div">
+                <button class="hamburger">
+                  <img src="./images/icons/hamburger-menu.png" alt="" srcset="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="volume-btn">
+        <div class="volume-container">
+          <button><img src="./images/icons/volume_up.png" alt="" /></button>
+        </div>
+      </div>
+    </section>
+    <section class="movies">
+      <div class="movie-container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="movie-container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie-image"></div>
+              <div class="movie-description">Brave New World</div>
+              <div class="slide-overlay">
+                <span
+                  ><img
+                    src="./images/icons/bytesize_heart.png"
+                    alt=""
+                    srcset="" /></span
+                ><span><img src="./images/icons/bx_bxl-play-store.png" /> </span
+                ><span
+                  ><img
+                    src="./images/icons/ion_heart-dislike-outline.png"
+                    alt=""
+                    srcset=""
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <form action="#">
+            <div class="modal__close" data-close>
+              <i
+                class="fa-solid fa-x fa-semibold fa-inverse"
+                style="margin: 10px; font-size: 20px"
+              ></i>
+            </div>
+            <div class="modal__title">
+              <h1>Sign In</h1>
+              <h5>Do you have an toog account?</h5>
+            </div>
+            <div class="modal-label-input">
+              <div>
+                <label for="email">Email</label>
+                <input
+                  required
+                  placeholder="Enter you email..."
+                  name="email"
+                  type="email"
+                  class="modal__input"
+                />
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <input
+                  required
+                  placeholder="Enter your password..."
+                  name="name"
+                  type="password"
+                  class="modal__input"
+                />
+                <p>Forgot password?</p>
+              </div>
+            </div>
+            <div class="modal-buttons">
+              <button>Sign up</button>
+              <button class="active">Sign In</button>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <p>
+              This site is protected by reCAPTCHA and the Google Privacy Policy
+              and Terms of Service apply.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        // centeredSlides: true,
+        mousewheel: true,
+        navigation: {
+          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next",
+        },
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          440: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+.movies {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    background-color: #1f1f1f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px;
+  }
+
+  .movie-container {
+    width: 90%;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 270px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .swiper-slide {
+    position: relative;
+    background: #1f1f1f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+  }
+
+  .slide-overlay {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .swiper-slide:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 6.583px;
+    background: radial-gradient(
+      107.32% 141.42% at 0% 0%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    box-shadow: -2.244035243988037px -2.244035243988037px 112.2017822265625px
+      0px rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(7.5px);
+  }
+
+  .swiper-slide:hover .slide-overlay {
+    opacity: 1;
+  }
+
+  .swiper-slide .slide-overlay span:nth-child(2) {
+    padding: 9.45px 7.35px 0.4px 10.5px;
+    border-radius: 42px;
+    background: radial-gradient(
+      107.32% 141.42% at 0% 0%,
+      #0cf9f0 0%,
+      #d686ff 100%
+    );
+    box-shadow: -2.5393476486206055px -2.5393476486206055px 126.9673843383789px
+      0px rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(5.250000476837158px);
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
+
+  .swiper-button-next {
+    right: 10px;
+  }
+
+  .movie-image {
+    background-image: url(../images/movie-images/movie.png);
+    z-index: 1;
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .movie-description {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+  }
