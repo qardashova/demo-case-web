@@ -154,6 +154,8 @@ button {
   box-shadow: -1.1487524509429932px -1.1487524509429932px 57.43762969970703px 0px
     rgba(255, 255, 255, 0.02) inset;
   backdrop-filter: blur(2.375px);
+  border: none;
+
 }
 
 .main header nav .watch-sign .watch-modal .list-container {
@@ -230,8 +232,12 @@ button {
   gap: 15px;
   background-color: transparent;
 
-  border-radius: 8px;
   background: rgba(255, 255, 255, 0.16);
+  border: 0.5px solid transparent; 
+  border-image: linear-gradient(to right, #0FF7F0, #D686FF);
+  border-image-slice: 1; 
+  border-radius: 8px;
+
 }
 
 .main header nav .watch-sign .buttons .hamburger-div {
